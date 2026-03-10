@@ -1,7 +1,5 @@
 const perfumes = [
 
-const perfumes = [
-
 {number:"006",name:"Opium Style",cat:"damen"},
 {number:"007",name:"Jadore Style",cat:"damen"},
 {number:"010",name:"Alien Style",cat:"damen"},

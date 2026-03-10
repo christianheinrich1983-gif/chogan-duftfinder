@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Duft ähnlich Sauvage</title>
+
+<meta name="description"
+content="Finde eine hochwertige Duftalternative zu beliebten Designerparfüms.">
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+<h1>Duft ähnlich einem beliebten Herrenduft</h1>
+
+<p>
+
+Viele Menschen suchen nach einer Alternative
+zu bekannten Luxusparfüms.
+
+</p>
+
+<h2>Empfohlener Duft</h2>
+
+<div class="card">
+
+<img src="../images/094.jpg">
+
+<div class="card-title">
+
+094 Fresh Style
+
+</div>
+
+</div>
+
+<p>
+
+Dieser Duft bietet eine frische und maskuline
+Duftkomposition mit moderner Ausstrahlung.
+
+</p>
+
+<a href="../index.html">
+
+<button>Alle Düfte ansehen</button>
+
+</a>
+
+</body>
+
+</html>

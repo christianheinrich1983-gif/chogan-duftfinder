@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Duft ähnlich Baccarat Rouge</title>
+
+<meta name="description"
+content="Luxuriöse Duftinspiration mit Amber und eleganten Noten.">
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+<h1>Luxuriöse Duftinspiration</h1>
+
+<p>
+Einige Parfüms sind bekannt für ihre
+einzigartige Kombination aus Amber,
+Holz und süßen Noten.
+</p>
+
+<h2>Empfohlener Duft</h2>
+
+<div class="card">
+
+<img src="../images/118.jpg">
+
+<div class="card-title">
+
+118 Amber Luxury Style
+
+</div>
+
+</div>
+
+<p>
+Dieser Duft überzeugt mit einer warmen
+Amber-Komposition und eleganten
+holzigen Nuancen.
+</p>
+
+<a href="../index.html">
+
+<button>Alle Düfte ansehen</button>
+
+</a>
+
+</body>
+
+</html>

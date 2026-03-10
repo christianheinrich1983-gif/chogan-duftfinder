@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Duft ähnlich Aventus</title>
+
+<meta name="description"
+content="Finde eine hochwertige Duftalternative zu beliebten Luxusparfüms.">
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+<h1>Duft ähnlich einem bekannten Luxusduft</h1>
+
+<p>
+Viele Menschen suchen nach einer Duftalternative
+zu bekannten Designerparfüms mit frischen
+und holzigen Noten.
+</p>
+
+<h2>Empfohlener Duft</h2>
+
+<div class="card">
+
+<img src="../images/068.jpg">
+
+<div class="card-title">
+068 Luxury Fresh Style
+</div>
+
+</div>
+
+<p>
+Dieser Duft kombiniert frische Zitrusnoten
+mit eleganten holzigen Akkorden und sorgt
+für eine maskuline und moderne Ausstrahlung.
+</p>
+
+<a href="../index.html">
+
+<button>Alle Düfte ansehen</button>
+
+</a>
+
+</body>
+
+</html>

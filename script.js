@@ -2,49 +2,16 @@ const grid = document.getElementById("grid")
 
 function showPerfume(p){
 
-alert(
-"Chogan "+p.number+" - "+p.name+"\n\n"+
-"Inspiriert von: "+p.inspired+"\n\n"+
+document.getElementById("grid").style.display="none"
+document.getElementById("detail").style.display="block"
+
+document.getElementById("detail-title").innerText =
+"Chogan "+p.number+" – "+p.name
+
+document.getElementById("detail-inspired").innerText =
+"Inspiriert von: "+p.inspired
+
+document.getElementById("detail-desc").innerText =
 p.desc
-)
 
 }
-
-function renderPerfumes(list){
-
-grid.innerHTML=""
-
-list.forEach(p=>{
-
-let img="flacon-men-30ml.jpg"
-
-if(p.cat==="damen"){
-img="flacon-women-30ml.jpg"
-}
-
-if(p.cat==="luxury"){
-img="flacon-black-50ml.jpg"
-}
-
-let div=document.createElement("div")
-
-div.className="card"
-
-div.innerHTML = `
-<img src="${img}">
-<div class="card-title">
-${p.number} – Chogan ${p.name}
-</div>
-`
-
-div.addEventListener("click", function(){
-showPerfume(p)
-})
-
-grid.appendChild(div)
-
-})
-
-}
-
-renderPerfumes(perfumes)

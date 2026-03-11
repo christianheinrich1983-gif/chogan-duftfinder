@@ -1,4 +1,4 @@
-const grid = document.getElementById("grid")
+let grid
 
 function showPerfume(p){
 
@@ -60,4 +60,10 @@ grid.appendChild(div)
 
 }
 
+window.onload=function(){
+
+grid=document.getElementById("grid")
+
 renderPerfumes(perfumes)
+
+}

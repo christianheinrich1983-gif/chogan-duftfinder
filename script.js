@@ -1,4 +1,4 @@
-const grid=document.getElementById("grid")
+const grid = document.getElementById("grid")
 
 function renderPerfumes(list){
 
@@ -6,21 +6,21 @@ grid.innerHTML=""
 
 list.forEach(p=>{
 
+let img="flacon-men-30ml.jpg"
+
+if(p.cat==="damen"){
+img="flacon-women-30ml.jpg"
+}
+
+if(p.cat==="luxury"){
+img="flacon-black-50ml.jpg"
+}
+
 let div=document.createElement("div")
 
 div.className="card"
 
-let img="images/flacon-men-30ml.jpg"
-
-if(p.cat==="damen"){
-img="images/flacon-women-30ml.jpg"
-}
-
-if(p.cat==="luxury"){
-img="images/flacon-black-50ml.jpg"
-}
-
-div.innerHTML = `
+div.innerHTML=`
 
 <img src="${img}">
 
@@ -30,7 +30,6 @@ ${p.number} ${p.name}
 
 </div>
 
-`
 `
 
 grid.appendChild(div)

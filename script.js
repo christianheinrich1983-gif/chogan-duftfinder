@@ -20,17 +20,27 @@ let div=document.createElement("div")
 
 div.className="card"
 
-div.innerHTML=`
+div.innerHTML = `
 
 <img src="${img}">
 
 <div class="card-title">
-
-${p.number} ${p.name}
-
+${p.number} – Chogan ${p.name}
 </div>
 
 `
+
+div.onclick = function(){
+
+alert(
+
+"Chogan "+p.number+" - "+p.name+"\n\n"+
+"Inspiriert von: "+p.inspired+"\n\n"+
+p.desc
+
+)
+
+}
 
 grid.appendChild(div)
 

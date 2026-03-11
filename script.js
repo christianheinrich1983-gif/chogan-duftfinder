@@ -54,4 +54,10 @@ div.onclick=function(){
 showPerfume(p)
 }
 
-grid.appendChild
+grid.appendChild(div)
+
+})
+
+}
+
+renderPerfumes(perfumes)

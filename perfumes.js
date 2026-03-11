@@ -5,7 +5,7 @@ number:"006",
 name:"Opium",
 cat:"damen",
 inspired:"orientalischer Damenklassiker",
-desc:"Warmer, orientalischer Duft mit Vanille und Gewürzen."
+desc:"Warmer orientalischer Duft mit Vanille und Gewürzen."
 },
 
 {
@@ -21,13 +21,15 @@ number:"010",
 name:"Alien",
 cat:"damen",
 inspired:"mystischer Jasmin Duft",
-desc
+desc:"Intensiver Duft mit Jasmin und Amber."
+},
+
 {
 number:"118",
 name:"Amber Luxury",
 cat:"luxury",
-inspired:"luxuriöser Amber-Duft",
-desc:"Warmer Duft mit Amber, Holz und Gewürzen."
+inspired:"luxuriöser Amber Duft",
+desc:"Warmer Duft mit Amber und edlen Hölzern."
 }
 
 ]

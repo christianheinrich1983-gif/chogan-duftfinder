@@ -15,3 +15,36 @@ document.getElementById("detail-desc").innerText =
 p.desc
 
 }
+
+function closeDetail(){
+
+document.getElementById("detail").style.display="none"
+document.getElementById("grid").style.display="grid"
+
+}
+
+function renderPerfumes(list){
+
+grid.innerHTML=""
+
+list.forEach(p=>{
+
+let img="flacon-men-30ml.jpg"
+
+if(p.cat==="damen"){
+img="flacon-women-30ml.jpg"
+}
+
+if(p.cat==="luxury"){
+img="flacon-black-50ml.jpg"
+}
+
+let div=document.createElement("div")
+
+div.className="card"
+
+div.innerHTML = `
+<img src="${img}">
+<div class="card-title">
+${p.number} – Chogan ${p.name}
+</div>

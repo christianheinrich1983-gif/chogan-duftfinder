@@ -1,5 +1,15 @@
 const grid = document.getElementById("grid")
 
+function showPerfume(p){
+
+alert(
+"Chogan "+p.number+" - "+p.name+"\n\n"+
+"Inspiriert von: "+p.inspired+"\n\n"+
+p.desc
+)
+
+}
+
 function renderPerfumes(list){
 
 grid.innerHTML=""
@@ -21,26 +31,15 @@ let div=document.createElement("div")
 div.className="card"
 
 div.innerHTML = `
-
 <img src="${img}">
-
 <div class="card-title">
 ${p.number} – Chogan ${p.name}
 </div>
-
 `
 
-div.onclick = function(){
-
-alert(
-
-"Chogan "+p.number+" - "+p.name+"\n\n"+
-"Inspiriert von: "+p.inspired+"\n\n"+
-p.desc
-
-)
-
-}
+div.addEventListener("click", function(){
+showPerfume(p)
+})
 
 grid.appendChild(div)
 
